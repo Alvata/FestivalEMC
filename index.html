@@ -1,0 +1,251 @@
+<!--comenzamos creando la estrucura basica
+de un documento html escribiendo <html y 
+teclenado enter para autocompletar, lo que creara
+la estructura que se llenara como se menciona a continuación...-->
+
+<!--indica el tipo de docuemnto-->
+<!DOCTYPE html> 
+<!--dentro de l etiqueta html esta todo el contenido del documento html-->
+<html> 
+<!------------encabezado de pagina----------->
+<!--dentro de la etiqueta head esta el encabezado del documento html-->
+<head> 
+	<title>Louvre Claudia</title> <!--dentro de la etiqueta tittle esta el titulo de la página-->
+	<link rel='stylesheet' href='estilos.css'/> <!--dentro de esta etiqueta esta la referencia a la hoja de estilos-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/> <!--viewport para trabajar responsive design-->
+</head>
+
+<!------------body de pagina----------->  
+<!--dentro de la estiqueta body tipicamente esta todo lo que contendra página-->
+<body> 
+
+
+	<!--dentro de la estiqueta header esta todo lo que sera el encanbezado de la página, pudiendo colocarse dentro del body o antes del body-->
+	<header class='menu-container' id="inicio">
+
+      <div class='identificador'>
+        <!----modificar nombre y ruta de la imagen para cambiar el logo por el propio----->
+       <img src="imagenes/logo.png">
+      </div>
+
+      <div class='ligas-secciones'>
+      	<!----modificar nombre de la seccion acorde a la necesidad----->
+          <a href="#secc1">El museo</a>
+          <a href="#secc2">Festival</a>
+          <a href="#secc3">Ponentes</a>
+          <a href="#secc4">Literatura</a>
+          <a href="#secc5">Cine</a>
+        </div>
+
+    </header>
+
+ 
+
+
+	<!--contenedor que agrupa todos los contenedores que tienen los contenidos de cada sección que aprecen entre el encabezado y pie de pagina-->
+    <main class="secciones">
+    	<!--contenedor para contenidos de cada sección-->
+    	<div class='seccion-contenedor' id="secc1">
+    		<!--contenedor para el texto de cada sección-->
+    		<div class="texto-secc">
+    			<!--si se quiere modificar contenido susutituir el texto entre las etiquetas de texto tipo h1-->
+		        <h1>El museo</h1>
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <h3>Un faro del conocimiento y el arte en el corazón de París.</h3>		        	
+		<p>El Louvre, uno de los museos más icónicos del mundo, símbolo de la cultura universal, continúa su labor de abrir diálogos entre el pasado y el presente. Más allá de su vasta colección artística, el museo también es un espacio para el pensamiento contemporáneo y la exploración crítica de la historia, la política y la cultura global. Situado en el corazón de París, este monumento arquitectónico ha sido testigo de siglos de transformación política, social y estética.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		<p>El museo impulsa propuestas innovadoras como el Festival des Échos d’un Monde Caché, un evento que invita a mirar más allá de las narrativas oficiales y explorar los engranajes ocultos del poder y la cultura. Así, invita al público a cuestionar, descubrir y conectar con nuevas perspectivas sobre la historia y el presente.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+    		</div>
+    		<!--contenedor para las imagenes de la sección 1, OJO: este tiene un layout para dos imagenes-->
+    		<div class="imgs-secc-1">
+    			<!--contenedor con las dos imagenes en su version de escritorio-->
+    			<div class="par-imgs-escritorio">
+    				<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+	        		<img src="imagenes/img1a.png" title="Img 1a">
+	        	
+    			</div>
+    			<!--contenedor los dos textos de las dos imagenes en su version de escritorio-->
+    			<div class="par-imgs-escritorio">
+    				<!--texto para imagen a la izquierda-->
+	        		<p>Museo de Louvre</p>
+	        		<!--texto para imagen a la derecha-->
+	        		
+        		</div>
+        		<!--contenedor con las dos imagenes en su version mobile-->
+        		<div class="par-imgs-mobile">
+    				<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+	        		<img src="imagenes/img1a.png" title="Img 1a">
+	        		<!--texto para la imagen-->
+	        		<p>Museo de Louvre</p>
+	        		<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+	        		
+    			</div>
+    		</div>
+
+    	</div>
+
+    	<!--contenedor para contenidos de cada sección-->
+    	<div class='seccion-contenedor' id="secc2">
+    		<!--contenedor para el texto de cada sección-->
+    		<div class="texto-secc">
+    			<!--si se quiere modificar contenido susutituir el texto entre las etiquetas de texto tipo h1-->
+		        <h1>Festival</h1>
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <h3>Explorando lo invisible: historia, poder y pensamiento oculto</h3>
+<p>Del 15 al 25 de mayo, en las afueras del Museo de Louvre</p>
+<p>Explora el lugar a través de un recorrido virtual</p>
+	<p>
+		<a href="360visualizar.html"target="_blank">Explorar en 360</a>
+	</p>
+		<p>El "Festival des Échos d’un Monde Caché" es una experiencia cultural y filosófica que nace con el propósito de cuestionar las capas menos visibles de la historia contemporánea. En una era marcada por la sobreinformación, la manipulación mediática y la desinformación, este festival propone una pausa, una mirada introspectiva y crítica hacia las fuerzas que históricamente han influido —y aún influyen— en nuestras decisiones, comportamientos y realidades sociales. A través de conferencias, literatura crítica y cine, exploramos los entramados invisibles que han moldeado la economía, el poder y la conciencia social.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		 <p>Se exploran narrativas que tradicionalmente han sido marginadas o silenciadas, revelando una historia paralela de poder oculto, e ideas que incomodan. A lo largo de varios días, el festival se convierte en una plataforma para despertar la conciencia crítica, y ver el mundo con otros ojos. Conoce los ponentes, libros y proyecciones audiovisuales que serán parte de este festival.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+    		</div>
+    		<!--contenedor para las imagenes de la sección OJO: este tiene un layout para una imagen-->
+    		<div class="contenedor-imagen">
+    			<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+        		<img  src="imagenes/img2.png" title="Img 2">
+        		<!--texto para la imagen-->
+        		<p></p>
+    		</div>
+
+    	</div>
+
+    	<!--contenedor para contenidos de cada sección-->
+    	<div class='seccion-contenedor' id="secc3">
+    		<!--contenedor para el texto de cada sección-->
+    		<div class="texto-secc">
+    			<!--si se quiere modificar contenido susutituir el texto entre las etiquetas de texto tipo h1-->
+		        <h1>Ponentes</h1>
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <h3>Las voces críticas que desvelan los engranajes del poder.</h3>
+		     <p>La selección de ponentes del Festival se trata de pensdadores incómodos e investigadores imparables que han desafiado y cuestionado las versiones oficilaes de la historia y la política. Su participación en el festival ofrece una oportunidad única de acceder a discursos alternativos que invitan a repensar la narrativa social. </p>
+		        <p>Jorge Guerra
+		        	<br>Investigador y escritor, autor de La Nobleza Negra: El Imperio de la 3ra Guerra Mental. A lo largo de su trayectoria, el autor explora a través de sus obras la influencia de ciertas élites en la configuración del poder mundial en nuestra historia tratando temas como la manipulación psicológica y el control social.  </p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>Antony Sutton
+		        	<br> Historiador económico británico-estadounidense, conocido por su investigación sobre el financiamiento del poder político por parte de occidente. Su obra sigue siendo una referencia para entender los vínculos entre economía y política de alto nivel.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <p>Marcelo Gullo 
+		        	<br> Politólogo argentino, autor de obras sobre dependencia y dominación política. En su obra plantea cómo la dominación cultural ha sido un instrumento clave para mantener la subordinación en Lationoamérica.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <p>Juan Miguel Zunzunegui 
+		        	<br>Historiador y autor mexicano, con su estilo humanista, pero contundente, viene a desmitificar la historia y derribar mitos colectivos. Su obra incluye libros como Los mitos que nos dieron traumas o Falsificar la historia, entre otras.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+    		</div>
+    		<!--contenedor para las imagenes de la sección OJO: este tiene un layout para una imagen-->
+    		<div class="contenedor-imagen">
+    			<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+        		<img  src="imagenes/img3.png" title="Img 3">
+        		<!--texto para la imagen-->
+        		<p></p>
+    		</div>
+
+    	</div>
+
+    	<!--contenedor para contenidos de cada sección-->
+    	<div class='seccion-contenedor' id="secc4">
+    		<!--contenedor para el texto de cada sección-->
+    		<div class="texto-secc">
+    			<!--si se quiere modificar contenido susutituir el texto entre las etiquetas de texto tipo h1-->
+		        <h1>Literatura</h1>
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <h3>Obras que invitan a repensar el mundo.</h3> 
+		     <p>Esta selección de obras invitan a la reflexión, y la comprensión de los temas tratados relacionados con las estructuras del poder, el pensamiento único, la manipulación y la resistencia.</p>
+		     <br>
+		        <p>1984 de George Orwell, un clásico que describe una sociedad sometida a una vigilancia extrema, y donde el pensamiento independiente es reprimido. El libro es una crítica al autoritarismo y la manipulación gubernamental.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>Un Mundo Feliz de Aldous Huxley, es una especie de utopía que plantea una crítica a la sociedad de consumo y el uso de la tecnología para controlar las masas. Un mundo donde la opresión viene del placer y la distracción.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <p>The Rape of the Mind de Joost Meerloo,  examina la psicología del lavado cerebral y cómo los estados y sistemas totalitarios moldean la mente humana a través del miedo, la propaganda y la manipulación psicológica.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <p>Confesiones de un sicario económico de John Perkins, narra en primera persona cómo se diseñan estrategias de dominación económica a nivel global; todo desde su experiencia para favorecer los intereses de EE.UU. y grandes corporaciones. </p>
+		        <br><!--etiqueta para un brinco de renglón-->
+    		</div>
+    		<!--contenedor para las imagenes de la sección OJO: este tiene un layout para una imagen-->
+    		<div class="contenedor-imagen-secc4">
+    			<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+        		<img  src="imagenes/img4.png" title="Img 4">
+        		<!--texto para la imagen-->
+        		<p></p>
+    		</div>
+
+    	</div>
+
+<!--contenedor para contenidos de cada sección-->
+    	<div class='seccion-contenedor' id="secc5">
+    		<!--contenedor para el texto de cada sección-->
+    		<div class="texto-secc">
+    			<!--si se quiere modificar contenido susutituir el texto entre las etiquetas de texto tipo h1-->
+		        <h1>Cine</h1>
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <h3>Proyecciones que despiertan la conciencia.</h3> 
+		     <p>En el Festival también se presenta una selección de materiales audiovisuales que exponen una visión crítica sobre el poder, la economía y la política, planteando la idea de que las instituciones que gobiernan el mundo operan en función de sus propios intereses.<p>
+						<br> 
+		        <p>Land Of The Blind (2006)
+						<br>Una sátira política sobre revoluciones, dictaduras y manipulación. En el filme se cuestiona la manipulación política y el riesgo de que el poder absoluto corrompa a quien lo posea. </p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>Zeitgeist: The Movie (2007)
+						<br>Un documental independiente que inundo internet. En él se exploran teorías de conspiración sobre la religión, la política y la economía.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <p>The Money Masters (1996)
+						<br>Este documental examina la historia del sistema bancario y los bancos centrales, argumentando que estos han manipulado la economía durante siglos. </p>
+		        <br><!--etiqueta para un brinco de renglón-->
+    		</div>
+    		<!--contenedor para las imagenes de la sección OJO: este tiene un layout para una imagen-->
+    		<div class="contenedor-imagen">
+    			<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+        		<img  src="imagenes/img5.png" title="Img 5">
+        		<!--texto para la imagen-->
+        		<p></p>
+    		</div>
+
+    	</div>
+
+
+    </main>
+
+    <!------------pie de pagina----------->
+    <!--dentro de la etiqueta footer esta todo lo que sera el pie de página, pudiendo colocarse dentro del body o despues del body-->
+	<footer>
+	   
+	    <div class='footer-item'>
+	      <!----modificar el href para que dirija una pagina especifica de facebook----->
+	      <a href="https://www.facebook.com/">
+	      	<img src="imagenes/fbk.png" title="Facebook">
+	      </a>
+	      <!----modificar el href para que dirija una pagina especifica de twitter----->
+	      <a href="https://twitter.com/">
+	      	<img src="imagenes/twt.png" title="Twitter">
+	      </a>
+	      <!----modificar el href para que dirija una pagina especifica de instagram----->
+	      <a href="http://instagram.com/">
+	      	<img src="imagenes/inst.png" title="Instagram">
+	      </a>
+	    </div>
+
+	    <div class="copyright">
+	    	<!----modificarlo con datos o mensaje propio----->
+	      <p style="">Festival des Échos d'un Monde Caché. Todos los derechos reservados 2025</p>
+	    </div>
+	    
+	  </footer>
+	<!------------------------------------>
+
+	<!---------enlace que regresa al inicio de la pagina--------->
+	<!--dentro de la etiqueta "a" de tipo enlace esta la imagen que actua como icono que regresa al inicio de la página-->
+	    <a class="ir-arriba" title="Volver arriba" href="#inicio">
+	    	<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+	      	<img src="imagenes/flecha-arriba.png">
+	    </a>
+
+</body>
+
+</html>
